@@ -6,7 +6,19 @@
 
     <groupId>com.spring.cloud.config</groupId>
     <artifactId>spring-cloud-config</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>config-server</module>
+        <module>config-client</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>

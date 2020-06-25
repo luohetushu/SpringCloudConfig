@@ -8,3 +8,13 @@
        并在启动的时候从配置中心获取和加载配置信息
 
 配置中心采用 Git 来存储配置信息
+
+配置信息：URL ：/{application}/{profile} [/{label}]
+              {label}对应 Git 上不同的分支，默认是master
+
+对应 配置文件：{application}-{profile}.yml
+          或 {label} 分支下的 {application}-{profile}.yml
+             {application}-{profile}.properties
+          或 {label} 分支下的 {application}-{profile}.properties
+
+
