@@ -14,6 +14,7 @@
 
 对应 配置文件：{application}-{profile}.yml
           或 {label} 分支下的 {application}-{profile}.yml
+          
              {application}-{profile}.properties
           或 {label} 分支下的 {application}-{profile}.properties
 
